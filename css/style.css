@@ -1,3 +1,14 @@
 .strike{
     text-decoration: line-through;
 }
+.buttonattr
+{
+	width: 30%;
+	height: 60px;
+	border-radius: 10px;
+}
+.formattr
+{
+	width: 60%;
+	height: 40px;
+}

@@ -10,19 +10,19 @@
             Enter a valid grocery item!        
         </div>
         
-        <div class="form-group">
-            <input type="text" ng-pattern="/^[a-zA-Z\s]*$/" class="form-control" placeholder="Grocery item" ng-model="groceryItem.itemName" required>
+        <div class="form-group" align="center">
+            <input type="text" ng-pattern="/^[a-zA-Z\s]*$/" class="form-control formattr" placeholder="Grocery item" ng-model="groceryItem.itemName" required>
         </div>
         
-        <div class="form-group">
-            <button type="button" class="btn btn-block btn-success btn-lg" ng-click="groceryForm.$valid && save()">
+        <div class="form-group" align="center">
+            <button type="button" class="btn btn-block btn-success btn-lg buttonattr" ng-click="groceryForm.$valid && save()">
                 <span class="glyphicon glyphicon-pushpin"></span>
                 Save 
             </button>
         </div>
         
-        <div class="form-group">
-            <a href="#/" class="btn btn-block btn-default btn-lg">
+        <div class="form-group" align="center">
+            <a href="#/" class="btn btn-block btn-danger btn-lg buttonattr">
                 <span class="glyphicon glyphicon-remove"></span>
                 Cancel 
             </a>
