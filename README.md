@@ -22,3 +22,7 @@ Single page web application used to add grocery items to list, edit and delete p
   1. Downloaded Node JS from here: http://go.aptana.com/installer_nodejs_windows and install it.
   2. Install Aptana text editor.
   3. Browse to your html file and click on run.
+
+* Method 4
+  Host it on a localhost like 200 OK for chrome- https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en
+
