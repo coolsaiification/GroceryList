@@ -27,11 +27,11 @@ app.config(function($routeProvider){
 app.service("GroceryService", function(){
     var groceryService= {};
     groceryService.groceryItems= [
-        {id:1, completed: true, itemName: 'milk',       date:("Mar 16, 2017 9:10:23 AM")},
-        {id:2, completed: true, itemName: 'cookies',    date:("Mar 17, 2017 9:10:23 AM")},
-        {id:3, completed: true, itemName: 'ice cream',  date:("Mar 18, 2017 9:10:23 AM")},
-        {id:4, completed: true, itemName: 'bread',      date:("Mar 18, 2017 9:10:23 AM")},
-        {id:5, completed: true, itemName: 'eggs',       date:("Mar 19, 2017 9:10:23 AM")}
+        {id:1, completed: false, itemName: 'milk',       date:("Mar 16, 2017 9:10:23 AM")},
+        {id:2, completed: false, itemName: 'cookies',    date:("Mar 17, 2017 9:10:23 AM")},
+        {id:3, completed: false, itemName: 'ice cream',  date:("Mar 18, 2017 9:10:23 AM")},
+        {id:4, completed: false, itemName: 'bread',      date:("Mar 18, 2017 9:10:23 AM")},
+        {id:5, completed: false, itemName: 'eggs',       date:("Mar 19, 2017 9:10:23 AM")}
     ];
     
     groceryService.findById = function(id){
